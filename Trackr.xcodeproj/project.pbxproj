@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F40A90061BEB4223000C4AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A90051BEB4223000C4AC0 /* AppDelegate.swift */; };
-		F40A90081BEB4223000C4AC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A90071BEB4223000C4AC0 /* ViewController.swift */; };
+		F40A90081BEB4223000C4AC0 /* SpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A90071BEB4223000C4AC0 /* SpaceViewController.swift */; };
 		F40A900B1BEB4223000C4AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40A90091BEB4223000C4AC0 /* Main.storyboard */; };
-		F40A900D1BEB4223000C4AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40A900C1BEB4223000C4AC0 /* Assets.xcassets */; };
 		F40A90101BEB4223000C4AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40A900E1BEB4223000C4AC0 /* LaunchScreen.storyboard */; };
 		F40A901B1BEB4223000C4AC0 /* TrackrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A901A1BEB4223000C4AC0 /* TrackrTests.swift */; };
+		F40A90261BEB4A67000C4AC0 /* SizingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A90251BEB4A67000C4AC0 /* SizingViewController.swift */; };
+		F40A90281BEB4CC1000C4AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40A90271BEB4CC1000C4AC0 /* Assets.xcassets */; };
+		F40A902A1BEB4D62000C4AC0 /* credits.md in Sources */ = {isa = PBXBuildFile; fileRef = F40A90291BEB4D62000C4AC0 /* credits.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +30,16 @@
 /* Begin PBXFileReference section */
 		F40A90021BEB4223000C4AC0 /* Trackr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trackr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40A90051BEB4223000C4AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F40A90071BEB4223000C4AC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F40A90071BEB4223000C4AC0 /* SpaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceViewController.swift; sourceTree = "<group>"; };
 		F40A900A1BEB4223000C4AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F40A900C1BEB4223000C4AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F40A900F1BEB4223000C4AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F40A90111BEB4223000C4AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F40A90161BEB4223000C4AC0 /* TrackrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40A901A1BEB4223000C4AC0 /* TrackrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackrTests.swift; sourceTree = "<group>"; };
 		F40A901C1BEB4223000C4AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40A90251BEB4A67000C4AC0 /* SizingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizingViewController.swift; sourceTree = "<group>"; };
+		F40A90271BEB4CC1000C4AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F40A90291BEB4D62000C4AC0 /* credits.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = credits.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,14 @@
 		F40A90041BEB4223000C4AC0 /* Trackr */ = {
 			isa = PBXGroup;
 			children = (
+				F40A90271BEB4CC1000C4AC0 /* Assets.xcassets */,
 				F40A90051BEB4223000C4AC0 /* AppDelegate.swift */,
-				F40A90071BEB4223000C4AC0 /* ViewController.swift */,
+				F40A90071BEB4223000C4AC0 /* SpaceViewController.swift */,
+				F40A90251BEB4A67000C4AC0 /* SizingViewController.swift */,
 				F40A90091BEB4223000C4AC0 /* Main.storyboard */,
-				F40A900C1BEB4223000C4AC0 /* Assets.xcassets */,
 				F40A900E1BEB4223000C4AC0 /* LaunchScreen.storyboard */,
 				F40A90111BEB4223000C4AC0 /* Info.plist */,
+				F40A90291BEB4D62000C4AC0 /* credits.md */,
 			);
 			path = Trackr;
 			sourceTree = "<group>";
@@ -178,7 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F40A90101BEB4223000C4AC0 /* LaunchScreen.storyboard in Resources */,
-				F40A900D1BEB4223000C4AC0 /* Assets.xcassets in Resources */,
+				F40A90281BEB4CC1000C4AC0 /* Assets.xcassets in Resources */,
 				F40A900B1BEB4223000C4AC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,8 +203,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F40A90081BEB4223000C4AC0 /* ViewController.swift in Sources */,
+				F40A90081BEB4223000C4AC0 /* SpaceViewController.swift in Sources */,
+				F40A90261BEB4A67000C4AC0 /* SizingViewController.swift in Sources */,
 				F40A90061BEB4223000C4AC0 /* AppDelegate.swift in Sources */,
+				F40A902A1BEB4D62000C4AC0 /* credits.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
